@@ -1,0 +1,200 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.modulreceptes{
+width: 10px;
+height: 1px;
+margin-right: 30%;
+max-width:1%;
+}
+.modulreceptes{
+width: 10px;
+height: 1px;
+margin-right: 30%;
+max-width:1%;
+}
+
+
+body{
+font-family: 'Fira Sans Condensed', sans-serif;
+font-weight: 500;
+}
+
+
+.clear{
+  clear:both;
+}
+/* Menú normal (desktop) */
+.normal{
+background-color: green;
+width:100%;
+}
+
+.normal ul{
+  list-style-type: none;
+}
+.normal ul li a{
+  text-decoration:none;
+  padding-top:10px;
+  padding-bottom:10px;
+  display:block;
+  float:left;
+  width:25%;
+  text-align: center;
+ color:black;
+ background-color: silver;
+}
+.normal ul li a:hover{
+  color:white;
+  background-color: #013C14;
+}
+
+#contenedor{
+width: 500;
+height: 900px;
+padding: 1%;
+
+}
+
+.modulreceptes{
+  width: 1200px;
+  height:900px;
+  background-color: cyan;
+
+  float: center: 100%;
+
+
+}
+
+.modulcontactes{
+  width: 200px;
+  height:200px;
+  background-color: salmon;
+  float: left;
+  margin: 5%;
+}
+
+.modulquisom{
+  width: 1000px;
+  height:500px;
+  background-color: #BAFAE7;
+  float: left;
+  margin: 6%;
+  border-right: 20%;
+}
+
+
+
+
+.imatgesmenjar{
+  width: 100px;
+  height:100px;
+  background: lightgreen;
+  float: center;
+  margin: 5%;
+
+
+
+}
+
+
+
+.moduloinici{
+
+  width: 1700px;
+  height:400px;
+  background: lightgreen;
+  float: center;
+  margin: 5%;
+}
+
+
+
+
+
+
+/* Menú mobile (movil) */
+.mobile ul{
+  display: none;
+}
+
+input:checked  ~ ul{
+  display:block;
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  margin:20px;
+
+}
+
+label:hover{
+  background: red;
+}
+
+input:checked ~ label {
+  background: grey;
+}
+
+.mobile ul{
+  margin-top:0;
+  padding: 0;
+  width: 200px;
+
+}
+
+
+.mobile ul li {
+  display: block;
+  background: grey;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid red;
+}
+.mobile ul li:hover {
+  filter: brightness(110%);
+}
+
+h1{
+  font-family: 'Bangers', cursive;
+  font-weight: 400;
+  font-size: 90px;
+  text-align: center;
+}
+
+.mobile{
+    display:none;
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: #FFC14E;
+  }
+  .normal{
+    display:none;
+  }
+  .modulo{
+    width: 90%;
+    margin: 3%;
+  }
+  .mobile{
+      display:block;
+  }
+}

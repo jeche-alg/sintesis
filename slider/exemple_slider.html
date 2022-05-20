@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo Slider</title>
+    <head>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+      <script src="slider/sss.min.js"></script><link rel="stylesheet" href="slider/sss.css" type="text/css" media="all">
+      <script>
+        jQuery(function($) {
+          $('.slider').sss({
+          slideShow : true, // Set to false to prevent SSS from automatically animating.startOn : 0, // Slide to display first. Uses array notation (0 = first slide).transition : 400, // Length (in milliseconds) of the fade transition.speed : 3500, // Slideshow speed in milliseconds.showNav : true // Set to false to hide navigation arrows.
+          });
+
+        });
+
+      </script>
+    </head>
+  </head>
+  <body>
+    <div class="slider">
+
+      <img src="img/image_01.jpeg" />
+      <img src="img/image_02.jpeg" />
+      <img src="img/image_03.jpeg" />
+
+
+    </div>
+    <script></script>
+  </body>
+</html>
